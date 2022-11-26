@@ -1,0 +1,21 @@
+{
+  "name": "sjk_pabw_unknown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Agungaja@bitbucket.org/sjk-unknown/sjk_pabw_unknown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/sjk-unknown/sjk_pabw_unknown#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
