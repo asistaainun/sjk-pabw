@@ -20,7 +20,7 @@ const navMenu = document.querySelector('#nav-menu');
 
 hamburger.addEventListener('click', function () {
   hamburger.classList.toggle('hamburger-active');
-  // navMenu.classList.toggle('hidden');
+  navMenu.classList.toggle('hidden');
 });
 
 // Klik di luar hamburger
@@ -30,6 +30,8 @@ window.addEventListener('click', function (e) {
     navMenu.classList.add('hidden');
   }
 });
+
+
 
 // Darkmode toggle
 // const darkToggle = document.querySelector('#dark-toggle');
