@@ -27,6 +27,12 @@
                 <li class="group">
                   <a href="../index.php" class="text-base text-slate-800 py-2 mx-8 group-hover:text-bgsign flex">Home</a>
                 </li>
+                <li class="group">
+                  <a href="login.php" class="text-base text-slate-800 py-2 mx-8 group-hover:text-bgsign flex">Login</a>
+                </li>
+                <li class="group">
+                  <a href="signup.php" class="text-base text-slate-800 py-2 mx-8 group-hover:text-bgsign flex">Sign up</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -47,49 +53,45 @@
     <section class="flex items-center justify-center">
       <div class="bg-bgsign flex flex-nowrap rounded-3xl shadow-lg max-w-2xl justify-center p-5">
         <!-- form start -->
+        
         <div class="w-full sm:w-1/2">
-          <div class="grid grid-cols-2 mb-4">
-            <a href="login.php" class="my-4 font-semibold text-white hover:border-b-2 hover:border-white hover:font-bold focus:border-b-2 focus:border-white focus:font-bold">Login</a>
-            <a href="signup.php" class="my-4 font-semibold text-white hover:border-b-2 hover:border-white hover:font-bold focus:border-b-2 focus:border-white focus:font-bold">Sign Up</a>
-          </div>
-          <h2 class="font-bold text-2xl text-white text-center">Sign Up</h2>
-          <div>
+          <h2 class="font-bold text-2xl text-white text-center underline">Sign Up</h2>
+          <form action="../dist/php/signupx.php" method="post">
             <label for="username" class="block mx-8 mt-4">
               <span class="block font-semibold mb-1 text-white ml-1">Username</span>
               <input
+                required
+                name="username"
                 type="text"
                 id="username"
                 placeholder="Masukan Username"
                 class="bg-text-white px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500"
               />
             </label>
-          </div>
-          <div>
             <label for="email" class="block mx-8 mt-4">
               <span class="block font-semibold mb-1 text-white ml-1">Email</span>
               <input
+                required
+                name="email"
                 type="email"
                 id="email"
                 placeholder="Masukan Email"
-                class="bg-text-white px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-red-600 invalid:focus:ring-red-600 invalid:focus:border-red-600 peer"
+                class="bg-text-white px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500"
               />
-              <p class="text-sm mt-1 text-white hidden peer-invalid:flex">Email tidak valid</p>
             </label>
-          </div>
-          <div>
-            <label for="password" class="block mx-8 mt-4">
+            <label for="pass" class="block mx-8 mt-4">
               <span class="block font-semibold mb-1 text-white ml-1">Password</span>
               <input
+                required
+                name="pass"
                 type="password"
                 id="password"
                 placeholder="Masukan Password"
                 class="bg-text-white px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500"
               />
             </label>
-          </div>
-          <div>
-            <button class="my-10 bg-white text-slate-700 px-5 py-2 rounded-full font-semibold block mx-auto hover:bg-sky-500 hover:text-white active:bg-sky-600 active:text-slate-700 focus:ring focus:ring-sky-200">Sign Up</button>
-          </div>
+            <input type="submit" value="Sign In" class="my-10 bg-white text-slate-700 px-5 py-2 rounded-full font-semibold block mx-auto hover:bg-sky-500 hover:text-white active:bg-sky-600 active:text-slate-700 focus:ring focus:ring-sky-200">
+        </form>
         </div>
 
         <!-- form end -->

@@ -30,15 +30,19 @@
                     </button>
 
                     <nav id="nav-menu" class="hidden absolute py-5 bg-white
-                shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block
-                lg:static lg:bg-transparent lg:max-w-full
-                lg:shadow-none lg:rounded-none">
+                    shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block
+                    lg:static lg:bg-transparent lg:max-w-full
+                    lg:shadow-none lg:rounded-none">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="../index.php" class="text-base text-slate-800 py-2
-                                mx-8 group-hover:text-bgsign flex">Home</a>
+                                <a href="../index.php" class="text-base text-slate-800 py-2 mx-8 group-hover:text-bgsign flex">Home</a>
                             </li>
-                            
+                            <li class="group">
+                                <a href="login.php" class="text-base text-slate-800 py-2 mx-8 group-hover:text-bgsign flex">Login</a>
+                            </li>
+                            <li class="group">
+                                <a href="signup.php" class="text-base text-slate-800 py-2 mx-8 group-hover:text-bgsign flex">Sign up</a>
+                            </li>
                         </ul>
                     </nav>
 
@@ -62,26 +66,32 @@
         <div class="bg-bgsign flex flex-nowrap rounded-3xl shadow-lg max-w-2xl justify-center p-5">
             <!-- form start -->
             <div class="w-full sm:w-1/2">
-                <div class="grid grid-cols-2 mb-4 box-border">
-                        <a class="my-4 font-semibold text-white hover:border-b-2 hover:border-white hover:font-bold focus:border-b-2 focus:border-white focus:font-bold box-border">Login</a>
-                        <a class="my-4 font-semibold text-white hover:border-b-2 hover:border-white hover:font-bold focus:border-b-2 focus:border-white focus:font-bold box-border" href="signup.php">Sign Up</a>
-                </div> 
-                    <h2 class="font-bold text-2xl text-white text-center">Login</h2>
-                <div>
-                    <label for="username" class="block mx-8 mt-4"> 
+                    <h2 class="font-bold text-2xl text-white text-center underline">Login</h2>
+                    <form action="../dist/php/loginx.php" method="post">
+                        <label for="username" class="block mx-8 mt-4">
                         <span class="block font-semibold mb-1 text-white ml-1">Username</span>
-                        <input type="text" id="username" placeholder="Masukan Username" class="bg-text-white px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500">
-                    </label>
-                </div>
-                <div>
-                    <label for="password" class="block mx-8 mt-4"> 
+                        <input
+                            required
+                            name="username"
+                            type="text"
+                            id="username"
+                            placeholder="Masukan Username"
+                            class="bg-text-white px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500"
+                        />
+                        </label>
+                        <label for="pass" class="block mx-8 mt-4">
                         <span class="block font-semibold mb-1 text-white ml-1">Password</span>
-                        <input type="password" id="password" placeholder="Masukan Password" class="bg-text-white px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500">
-                    </label>
-                </div>
-                <div>
-                    <button class="my-10 bg-white text-slate-700 px-5 py-2 rounded-full font-semibold block mx-auto hover:bg-sky-500 hover:text-white active:bg-sky-600 active:text-slate-700 focus:ring focus:ring-sky-200"> Login </button>
-                </div>
+                        <input
+                            required
+                            name="pass"
+                            type="password"
+                            id="password"
+                            placeholder="Masukan Password"
+                            class="bg-text-white px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-500 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500"
+                        />
+                        </label>
+                        <input type="submit" name="submit" value="Login" class="my-10 bg-white text-slate-700 px-5 py-2 rounded-full font-semibold block mx-auto hover:bg-sky-500 hover:text-white active:bg-sky-600 active:text-slate-700 focus:ring focus:ring-sky-200">
+                    </form>                    
             </div>
 
             <!-- form end -->
