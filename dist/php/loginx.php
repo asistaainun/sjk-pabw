@@ -14,8 +14,8 @@ if (isset($_POST['submit'])) {
         // $_SESSION["login"] = true; 
         header("Location: ../../public/dashboard.php");
     } else {
-        header('Location: ../../public/login.php');
         echo "<script>alert('Username atau password Anda salah. Silahkan coba lagi!')</script>";
+        header('Location: ../../public/login.php');
     }
 }
 $conn -> close();
