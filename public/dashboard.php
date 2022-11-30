@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+// include"config.php";
+
+if (!isset($_SESSION['username'])) {
+    header('Location: login.php');
+    exit;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,5 +19,6 @@
 </head>
 <body>
     <h1 class="text-2xl">Dashboard</h1>
+    <a href="../dist/php/logoutx.php">Logout</a>
 </body>
 </html>

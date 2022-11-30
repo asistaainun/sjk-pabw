@@ -11,6 +11,7 @@ if (isset($_POST['submit'])) {
     if ($hasil->num_rows > 0) {
         $row = mysqli_fetch_assoc($hasil);
         $_SESSION['username'] = $row['username'];
+        // $_SESSION["login"] = true; 
         header("Location: ../../public/dashboard.php");
     } else {
         header('Location: ../../public/login.php');

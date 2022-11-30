@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -105,7 +108,7 @@
     </section>
     <!-- Background Biru End-->
 
-    <script src="dist/js/script.js"></script>
+    <script src="../dist/js/script.js"></script>
 
 </body>
 
