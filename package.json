@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch",
+    "biyu": "git config --global user.email 21523280@students.uii.ac.id",
+    "biyuname": "git config --global user.name Biyu280"
   },
   "repository": {
     "type": "git",

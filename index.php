@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="dist/css/style.css" />
-  <title>Scopyyy</title>
+  <title>SOKIN</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     <div class="container">
       <div class="relative flex items-center justify-between">
         <div class="px-4">
-          <a href="#home" class="block py-6 text-lg font-bold text-primary">Scopyyy</a>
+          <a href="#home" class="block py-6 text-lg font-bold text-white">SOKIN</a>
         </div>
         <div class="flex items-center px-4">
           <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
@@ -65,7 +65,7 @@
       <div class="flex flex-wrap">
         <div
           class="w-full self-center lg:w-1/2 2xl:text-left xl:text-left lg:text-left sm:text-center s:text-center s:pb-10">
-          <h1 class="font-bold text-4xl mb-5 2xl:text-7xl text-white s:text-7xl">Scopyyy</h1>
+          <h1 class="font-bold text-4xl mb-5 2xl:text-7xl text-white s:text-7xl">SOKIN</h1>
           <h2 class="text-2xl text-slate font-bold mb-5 text-slate-200">Grow your <span
               class="text-sky-800 underline">Education</span></h2>
           <p class="leading-relaxed font font-medium text-slate-200 mb-10 text-justify">
@@ -103,7 +103,7 @@
         <div class="bg-white rounded-3xl self-center shadow-xl shadow-slate-700"><img src="dist/img/appBackground.png"
             alt="appBackground" class="max-w-full" /></div>
         <div class="w-full px-4 mb-10 mx-5">
-          <h2 class="underline font-bold m-0 text-2xl mb-4">What is Scopyyy?</h2>
+          <h2 class="underline font-bold m-0 text-2xl mb-4">What is SOKIN?</h2>
           <p class="leading-relaxed font font-medium text-black mb-10 text-justify">
             The best successes in life came after many failures. Education is about creating leaders for tomorrow. Lorem
             ipsum dolor sit amet consectetur, adipisicing elit. Voluptates laudantium dolores excepturi nesciunt
@@ -126,31 +126,31 @@
   <!-- AppBackground Section End -->
 
   <!-- Contact Section Start -->
-  <section id="contact" class="pt-36 pb-32 bg-sky-500">
+  <section id="contact" class="pt-20 pb-36 bg-sky-500">
     <div class="container">
       <div class="w-full px-4">
         <div class="mx-auto mb-16 max-w-xl text-center">
-          <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4>
-          <h2 class="mb-4 text-3xl font-bold text-dark text-white sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+          <!-- <h4 class="mb-2 text-lg font-semibold text-primary">Contact</h4> -->
+          <h2 class="mb-2 text-3xl font-bold text-white underline sm:text-4xl lg:text-5xl">Contact Us</h2>
         </div>
       </div>
 
       <form>
         <div class="w-full lg:mx-auto lg:w-2/3">
           <div class="mb-8 w-full px-4">
-            <label for="name" class="text-base font-bold text-primary">Nama</label>
+            <label for="name" class="text-base font-bold text-white">Nama</label>
             <input type="text" id="name"
-              class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
+              class="w-full rounded-md bg-white p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
           </div>
           <div class="mb-8 w-full px-4">
-            <label for="email" class="text-base font-bold text-primary">Email</label>
+            <label for="email" class="text-base font-bold text-white">Email</label>
             <input type="email" id="email"
-              class="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
+              class="w-full rounded-md bg-white p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
           </div>
           <div class="mb-8 w-full px-4">
-            <label for="message" class="text-base font-bold text-primary">Pesan</label>
+            <label for="message" class="text-base font-bold text-white">Pesan</label>
             <textarea type="email" id="email"
-              class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-slate-700"></textarea>
+              class="h-32 w-full rounded-md bg-white p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-slate-700"></textarea>
           </div>
           <div class="w-full px-4">
             <button
@@ -163,60 +163,14 @@
   <!-- Contact Section End -->
 
   <!-- Footer Start -->
-  <footer class="bg-dark pt-24 pb-12">
-    <div class="container">
-      <div class="flex flex-wrap">
-        <div class="mb-12 w-full px-4 font-medium text-slate-300 md:w-1/3">
-          <h2 class="mb-5 text-4xl font-bold text-white">Scopyyy</h2>
-          <h3 class="mb-2 text-2xl font-bold">Contact us</h3>
-          <p>unknown@uii.ac.id</p>
-          <p>Kaliurang km14,5</p>
-          <p>Yogyakarta</p>
-        </div>
-        <div class="mb-12 w-full px-4 md:w-1/3">
-          <h3 class="mb-5 text-xl font-semibold text-white">Kategori Tulisan</h3>
-          <ul class="text-slate-300">
-            <li>
-              <a href="#" class="mb-3 inline-block text-base hover:text-primary">Programming</a>
-            </li>
-            <li>
-              <a href="#" class="mb-3 inline-block text-base hover:text-primary">Teknologi</a>
-            </li>
-            <li>
-              <a href="#" class="mb-3 inline-block text-base hover:text-primary">Gaya Hidup</a>
-            </li>
-          </ul>
-        </div>
-        <div class="mb-12 w-full px-4 md:w-1/3">
-          <h3 class="mb-5 text-xl font-semibold text-white">Tautan</h3>
-          <ul class="text-slate-300">
-            <li>
-              <a href="#home" class="mb-3 inline-block text-base hover:text-primary">Beranda</a>
-            </li>
-            <li>
-              <a href="#about" class="mb-3 inline-block text-base hover:text-primary">Tentang Saya</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="mb-3 inline-block text-base hover:text-primary">Portfolio</a>
-            </li>
-            <li>
-              <a href="#clients" class="mb-3 inline-block text-base hover:text-primary">Clients</a>
-            </li>
-            <li>
-              <a href="#blog" class="mb-3 inline-block text-base hover:text-primary">Blog</a>
-            </li>
-            <li>
-              <a href="#contact" class="mb-3 inline-block text-base hover:text-primary">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <footer class="bg-sky-800 pt-24 pb-12">
+    <div class="container ">
 
-      <div class="w-full border-t border-slate-700 pt-10">
+      <div class="w-full  pt-10">
         <div class="mb-5 flex items-center justify-center">
           <!-- Youtube -->
           <a href="https://youtube.com/webprogrammingunpas" target="_blank"
-            class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
+            class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-slate-50 hover:text-sky-800">
             <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>YouTube</title>
               <path
@@ -264,10 +218,10 @@
             </svg>
           </a>
         </div>
-        <p class="text-center text-xs font-medium text-slate-500">
+        <p class="text-center text-xs font-medium text-slate-50">
           Dibuat dengan <span class="text-pink-500">❤️</span> oleh <a href="https://instagram.com/sandhikagalih"
-            target="_blank" class="font-bold text-primary">Unknown Team</a>, menggunakan
-          <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500">Tailwind CSS</a>.
+            target="_blank" class="font-bold text-sky-400">Unknown Team</a>, menggunakan
+          <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-400">Tailwind CSS</a>.
         </p>
       </div>
     </div>
