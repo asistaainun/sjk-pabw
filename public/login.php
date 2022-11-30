@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOKIN Login</title>
-    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="../dist/css/style.css">
 </head>
 <body>
 
@@ -35,16 +35,8 @@
                 lg:shadow-none lg:rounded-none">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#" class="text-base text-slate-800 py-2
-                                mx-8 group-hover:text-bgsign flex">App Background</a>
-                            </li>
-                            <li class="group">
-                                <a href="#contact" class="text-base text-slate-800 py-2
-                                mx-8 group-hover:text-bgsign flex">Contact</a>
-                            </li>
-                            <li class="group">
-                                <a href="#about" class="text-base text-slate-800 py-2
-                                mx-8 group-hover:text-bgsign flex">About</a>
+                                <a href="../index.php" class="text-base text-slate-800 py-2
+                                mx-8 group-hover:text-bgsign flex">Home</a>
                             </li>
                             
                         </ul>
@@ -70,9 +62,9 @@
         <div class="bg-bgsign flex flex-nowrap rounded-3xl shadow-lg max-w-2xl justify-center p-5">
             <!-- form start -->
             <div class="w-full sm:w-1/2">
-                <div class="grid grid-cols-2 mb-4">
-                        <button class="my-4 font-semibold text-white hover:border-b-2 hover:border-white hover:font-bold focus:border-b-2 focus:border-white focus:font-bold">Login</button>
-                        <button class="my-4 font-semibold text-white hover:border-b-2 hover:border-white hover:font-bold focus:border-b-2 focus:border-white focus:font-bold">Sign Up</button>
+                <div class="grid grid-cols-2 mb-4 box-border">
+                        <a class="my-4 font-semibold text-white hover:border-b-2 hover:border-white hover:font-bold focus:border-b-2 focus:border-white focus:font-bold box-border">Login</a>
+                        <a class="my-4 font-semibold text-white hover:border-b-2 hover:border-white hover:font-bold focus:border-b-2 focus:border-white focus:font-bold box-border" href="signup.php">Sign Up</a>
                 </div> 
                     <h2 class="font-bold text-2xl text-white text-center">Login</h2>
                 <div>
@@ -95,7 +87,7 @@
             <!-- form end -->
             <!-- img start -->
             <div class="sm:w-1/2 flex sm:bg-white sm:p-5 sm:rounded-2xl">
-                <img class=" hidden sm:flex sm:w-full  sm:mx-auto sm:my-auto sm:max-h-full sm:object-center" src="dist/img/saly.png" alt="signup">
+                <img class=" hidden sm:flex sm:w-full  sm:mx-auto sm:my-auto sm:max-h-full sm:object-center" src="../dist/img/saly.png" alt="signup">
             </div>
             <!-- img end -->
             
