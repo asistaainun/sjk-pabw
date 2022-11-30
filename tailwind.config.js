@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html'],
+  content: ['index.html', './dist/**/*.{html,php,js}'],
   theme: {
     container: {
       center: true,
@@ -8,7 +8,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        first: '#0C7BB3',
+        primary: '#0C7BB3',
+        bgawal: '#D9D9D9',
+        bgsign: '#0C7BB3',
       },
       screens: {
         '2xl': '1320px',

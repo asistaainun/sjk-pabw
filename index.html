@@ -8,6 +8,50 @@
     <title>Scopyyy</title>
   </head>
   <body>
+    <!-- Header Start -->
+    <header class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
+      <div class="container">
+        <div class="relative flex items-center justify-between">
+          <div class="px-4">
+            <a href="#home" class="block py-6 text-lg font-bold text-primary">Scopyyy</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
+              <span class="my-2 block h-[2px] w-[30px] bg-dark origin-top-left transition duration-300 ease-in-out"></span>
+              <span class="my-2 block h-[2px] w-[30px] bg-dark transition duration-300 ease-in-out"></span>
+              <span class="my-2 block h-[2px] w-[30px] bg-dark origin-bottom-left transition duration-300 ease-in-out"></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#appBackground" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">App Background</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">About Us</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Contact</a>
+                </li>
+                <li class="group">
+                  <a href="signup.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Sign Up</a>
+                </li>
+                <li class="group">
+                  <a href="./public/login.html" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Login</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
     <!-- Hero Section Start -->
     <section id="hero" class="pt-36 bg-sky-500">
       <div class="container">
@@ -40,7 +84,7 @@
 
     <!-- Hero Section End -->
 
-    <!-- About Section Start -->
+    <!-- AppBackground Section Start -->
     <section id="appBackground" class="flex flex-wrap bg-slate-100 rounded-xl my-6 mx-10">
       <div class="container">
         <h3 class="text-4xl font-bold text-sky-500 underline text-center block my-5 mb-10">App Background</h3>
@@ -59,7 +103,7 @@
         </div>
       </div>
     </section>
-    <!-- About Section End -->
+    <!-- AppBackground Section End -->
 
     <!-- Contact Section Start -->
     <section id="contact" class="pt-36 pb-32 bg-sky-500">
@@ -83,10 +127,10 @@
             </div>
             <div class="mb-8 w-full px-4">
               <label for="message" class="text-base font-bold text-primary">Pesan</label>
-              <textarea type="email" id="email" class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
+              <textarea type="email" id="email" class="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-slate-700"></textarea>
             </div>
             <div class="w-full px-4">
-              <button class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">Kirim</button>
+              <button class="w-full rounded-lg bg-sky-600 py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">Kirim</button>
             </div>
           </div>
         </form>
@@ -205,6 +249,6 @@
     </footer>
     <!-- Footer End -->
 
-    <div class="pb-52"></div>
+    <script src="dist/js/script.js"></script>
   </body>
 </html>
