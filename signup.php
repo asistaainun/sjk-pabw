@@ -101,13 +101,13 @@
         <!-- form end -->
         <!-- img start -->
         <div class="sm:w-1/2 flex sm:bg-white sm:p-5 sm:rounded-2xl">
-          <img class="hidden sm:flex sm:w-full sm:mx-auto sm:my-auto sm:max-h-full sm:object-center" src="/dist/img/1.png" alt="signup" />
+          <img class="hidden sm:flex sm:w-full sm:mx-auto sm:my-auto sm:max-h-full sm:object-center" src="dist/img/1.png" alt="signup" />
         </div>
         <!-- img end -->
       </div>
     </section>
     <!-- Background Form End-->
 
-    <script src="/public/js/script.js"></script>
+    <script src="dist/js/script.js"></script>
   </body>
 </html>
