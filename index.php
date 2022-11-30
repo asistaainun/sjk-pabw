@@ -45,11 +45,11 @@
                   class="mx-8 flex py-2 text-base text-black 2xl:text-white group-hover:text-primary ">Contact</a>
               </li>
               <li class="group">
-                <a href="signup.html"
+                <a href="public/signup.php"
                   class="mx-8 flex py-2 text-base text-black 2xl:text-white group-hover:text-primary ">Sign Up</a>
               </li>
               <li class="group">
-                <a href="./public/login.html"
+                <a href="public/login.php"
                   class="mx-8 flex py-2 text-base text-black 2xl:text-white group-hover:text-primary ">Login</a>
               </li>
             </ul>
