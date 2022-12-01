@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
         $row = mysqli_fetch_assoc($hasil);
         $_SESSION['username'] = $row['username'];
         // $_SESSION["login"] = true; 
-        header("Location: ../../public/dashboard.php");
+        header('Location: ../../public/dashboard.php');
     } else {
         echo "<script>alert('Username atau password Anda salah. Silahkan coba lagi!')</script>";
         header('Location: ../../public/login.php');
