@@ -15,7 +15,9 @@
     <div class="container">
       <div class="relative flex items-center justify-between">
         <div class="px-4">
-          <a href="#home" class="block py-6 text-lg font-bold text-white">SOKIN</a>
+          <a href="#home" class="block py-6 text-lg font-bold text-white">
+            <img src="dist/img/logo.png" alt="logo" class="scale-50">
+          </a>
         </div>
         <div class="flex items-center px-4">
           <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
