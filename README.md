@@ -4,11 +4,11 @@
 
 <div style="display:flex; gap:5px;">
     <div style="display: inline-block;">
-        <img width="50%" src="assets/website-screen1.png"/><img width="50%" src="assets/website-screen3.png"/>
+        <img width="50%" src="Screenshot_20230105_064352.png"/><img width="50%" src="Screenshot 2023-09-24 213608.png"/>
     </div>
 </div>
 <div style="display:flex; gap:5px;">
     <div style="display: inline-block;">
-        <img width="50%" src="assets/website-screen2.png"/><img width="50%" src="assets/website-screen4.png"/>
+        <img width="50%" src="Screenshot_20230105_064250.png"/><img width="50%" src="Screenshot 2023-09-24 213546.png"/>
     </div>
 </div>
